@@ -1,5 +1,7 @@
 # rtl_433 MQTT Auto Discovery Home Assistant Add-on
 
+(Modified by Jacob Kuenzel to report reed_open and contact_open fields for better Honeywell 5800 sensor support)
+
 ## About
 
 This add-on is a simple wrapper around the [rtl_433_mqtt_hass.py](https://github.com/merbanan/rtl_433/blob/a20cd1a62caa52dad97e4a99f8373b2fba3986d9/examples/rtl_433_mqtt_hass.py) script that's part of the excellent [rtl_433](https://github.com/merbanan/rtl_433) project. It helps Home Assistant discover and interpret sensor data that's published to MQTT by rtl_433.

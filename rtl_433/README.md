@@ -1,5 +1,7 @@
 # rtl_433 Home Assistant Add-on
 
+(Modified by Jacob Kuenzel to use newer base image for RTL SDR V4 Blog dongle support)
+
 ## About
 
 This add-on is a simple wrapper around the excellent [rtl_433](https://github.com/merbanan/rtl_433) project that receives wireless sensor data via [one of the supported SDR dongles](https://triq.org/rtl_433/HARDWARE.html), decodes and outputs it in a variety of formats including JSON and MQTT. The wireless sensors rtl_433 understands transmit data mostly on 433.92 MHz, 868 MHz, 315 MHz, 345 MHz, and 915 MHz ISM bands.
