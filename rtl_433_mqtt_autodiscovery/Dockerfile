@@ -7,7 +7,7 @@ FROM ${BUILD_FROM} as builder
 
 FROM ${BUILD_FROM}
 
-COPY --from=builder rtl_433_mqtt_hass.py .
+COPY rtl_433_mqtt_hass.py .
 COPY run.sh .
 
 RUN \
